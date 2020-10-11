@@ -12,7 +12,7 @@ A beginner specialist with little programming experience. I would like to get in
 ### Skills:
 * Basic knowledge: HTML, CSS, JS
 * Tools: VSCode 
-* Good communication skills
+* Good communication skills 
 
 ### Work experience:
 2020 - present  
