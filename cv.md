@@ -28,7 +28,7 @@ A beginner specialist with little programming experience. I would like to get in
 2014-2018  
 **BSU** Institute of journalism, Bachelor's degree
 
-### Languages: 
+### Languages:
 * Russian (native)
 * English (A1+)
 
