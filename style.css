@@ -1,17 +1,73 @@
 body {
-    max-width: 1024px;
-    margin: 0 auto;
-  }
-  header {
-    margin: 5px;
-  }
-  section {
-    margin: 5px;
-  }
-  hr {
-    margin: 5px;
-  }
-  .Photo {
-    width: 150px;
-    margin: 5px;
-  }
+  max-width: 1024px;
+  margin: 0 auto;
+  font-size: 18px;
+  background-color: #ffffff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+hr {
+  margin: 5px;
+  width: 50%;
+  margin-left: 10px;
+}
+
+i {
+  color:  rgb(51, 51, 51, 0.9);
+  margin: 7px;
+}
+
+div {
+  margin-left: 10px;
+}
+
+.Photo {
+  width: 200px;
+  margin: 0px 0px 0px 40px;
+  border-radius: 50%;
+}
+
+.block_section {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+  margin: 0;
+	padding: 10px;
+	flex-direction: row;
+}
+
+#color {
+  background-color: rgb(204, 204, 204, 0.5);
+}
+
+.block {
+	flex: 1 0;
+  width: 50%;
+  margin: 15px;
+}
+
+h4 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:rgb(51, 51, 51, 0.9);
+  margin-top: -20px;
+}
+
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 24px;
+  padding: 7px;
+  color:#ffffff;
+  background-color: rgb(51, 51, 51, 0.9);
+  width: 70%;
+  border-radius:0px 30px 30px 0px;
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 50px;
+  color:rgb(51, 51, 51, 0.9);
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid rgb(51, 51, 51, 0.5);
+  border-radius:0px 60px 60px 0px; 
+}
