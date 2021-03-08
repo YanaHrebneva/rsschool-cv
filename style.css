@@ -93,6 +93,22 @@ h1 {
   border-radius:0px 60px 60px 0px; 
 }
 
+footer {
+  display: flex;
+	justify-content: center;
+	padding-bottom: 10px;
+  flex-direction: row;
+}
+
+footer a {
+  width: 100px;
+  margin-left: 20px;
+}
+
+footer a :hover {
+  border: 2px solid whitesmoke;
+}
+
 @media screen and (max-width: 620px) {
   .wrap {
     flex-direction: column;
