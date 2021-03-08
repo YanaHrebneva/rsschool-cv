@@ -1,0 +1,159 @@
+body {
+  max-width: 1024px;
+  margin: 0 auto;
+  font-size: 18px;
+  background-color: #ffffff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+hr {
+  margin: 5px;
+  width: 50%;
+  margin-left: 10px;
+}
+
+i {
+  color:  rgb(51, 51, 51, 0.9);
+  margin: 7px;
+}
+
+div {
+  margin-left: 10px;
+}
+
+p {
+  margin-left: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.photo {
+  width: 200px;
+  margin: 0px 0px 0px 40px;
+  border-radius: 50%;
+}
+
+.position {
+  margin-top: -20px;
+  margin-left: 10px;
+  color:rgb(51, 51, 51, 0.9);
+}
+
+.stylelist1 {
+  line-height: 2;
+  list-style: none; 
+  padding-left: 10px
+}
+
+.wrap {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+  margin: 0;
+	padding: 10px;
+  flex-direction: row;
+  word-wrap: break-word;
+}
+
+.color {
+  background-color: rgb(204, 204, 204, 0.5);
+}
+
+.block {
+	flex: 1 0;
+  width: 50%;
+  margin: 15px;
+}
+
+h4 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:rgb(51, 51, 51, 0.9);
+  margin-top: -20px;
+}
+
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 24px;
+  padding: 7px;
+  color:#ffffff;
+  background-color: rgb(51, 51, 51, 0.9);
+  width: 70%;
+  border-radius:0px 30px 30px 0px;
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 50px;
+  color:rgb(51, 51, 51, 0.9);
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid rgb(51, 51, 51, 0.5);
+  border-radius:0px 60px 60px 0px; 
+}
+
+footer {
+  display: flex;
+	justify-content: center;
+	padding-bottom: 10px;
+  flex-direction: row;
+}
+
+footer a {
+  width: 100px;
+  margin-left: 20px;
+}
+
+footer a :hover {
+  border: 2px solid whitesmoke;
+}
+
+@media screen and (max-width: 620px) {
+  .wrap {
+    flex-direction: column;
+  }
+  h1 {
+    border: none;
+  }
+  .block {
+    flex: 1 0;
+    width: 100%;
+    margin: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .wrap {
+    flex-direction: column;
+  }
+  h1 {
+    border: none;
+  }
+  h2 {
+    background-color: rgb(204, 204, 204,0.1);
+    color: black;
+    border-radius: none;
+  }
+  .block {
+    flex: 1 0;
+    width: 100%;
+    margin: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
